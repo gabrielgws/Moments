@@ -1,27 +1,59 @@
-# CursoAngular132022
+## 🧪 Tecnologias
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## Development server
+- [Angular](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SCSS](https://sass-lang.com/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Como executar
 
-## Code scaffolding
+Clone o projeto e acesse a pasta do mesmo.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+$ git clone https://github.com/gabrielgws/Moments.git
+$ cd Moments
+```
 
-## Build
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Front-End
+$ cd projeto
+$ cd moments
+$ npm install
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Iniciar o front-end
+$ ng serve
+```
 
-## Running unit tests
+```bash
+# Back-End
+$ cd projeto
+$ cd api
+$ npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Variável de ambiente
+$ node ace
+$ node ace generate:key
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Iniciar a api
+$ ng ace serve
+```
+O app estará disponível no seu browser pelo endereço http://localhost:4200/.
 
-## Further help
+Lembrando que será necessário criar uma variável de ambiente copiando a key gerada, e criar um arquivo .evn e inserir a nova key.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 💻 Projeto
+
+Desenvolvido em Angular um website para registar momentos, aonde podemos adicionar novos momentos, excluir, atualizar os momentos e fazer comentários em cada momento.
+
+## 🔖 Layout
+
+
+
+## 📝 License
+
+---
+
+Feito com 💜 by gabrielgws :rocket:	
