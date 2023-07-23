@@ -35,11 +35,18 @@ export class MomentComponent {
   }
 
   async removeHandler(id: number) {
-    await this.momentService.removeMoment(id).subscribe();
+    // await this.momentService.removeMoment(id).subscribe();
 
-    this.messageService.add("Momento exluído com sucesso!");
+    // this.messageService.add("Momento exluído com sucesso!");
 
-    this.router.navigate(['/']);
+    // this.router.navigate(['/']);
+
+    await this.momentService.removeMoment(id).subscribe({
+      next: () =>{
+        this.messageService.add('Momento excluído com sucesso!');
+        this.router.navigate(['/']); 
+      }
+    }); 
   }
 
 }
